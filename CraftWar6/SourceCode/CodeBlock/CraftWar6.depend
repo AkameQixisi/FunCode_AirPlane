@@ -1,0 +1,301 @@
+# depslib dependency file v1.0
+1420212242 source:e:\c项目实训\craftwar6\sourcecode\icon.rc
+
+1561443960 source:e:\c项目实训\craftwar6\sourcecode\src\lessonx.cpp
+	<Stdio.h>
+	"CommonClass.h"
+	"LessonX.h"
+	<fstream>
+
+1422461346 e:\c项目实训\craftwar6\sourcecode\header\commonclass.h
+	<windows.h>
+
+1561682743 e:\c项目实训\craftwar6\sourcecode\header\lessonx.h
+	<Windows.h>
+	"mycraft.h"
+	"enemystool.h"
+	"bullet.h"
+
+1561129674 source:e:\c项目实训\craftwar6\sourcecode\src\main.cpp
+	"CommonClass.h"
+	"LessonX.h"
+
+1561359760 source:e:\c项目实训\craftwar6\sourcecode\src\moveobject.cpp
+	"moveobject.h"
+
+1561361630 e:\c项目实训\craftwar6\sourcecode\header\moveobject.h
+	"CommonClass.h"
+	<memory>
+
+1561177264 source:e:\c项目实训\craftwar6\sourcecode\src\basiccraft.cpp
+	"basiccraft.h"
+
+1561361620 e:\c项目实训\craftwar6\sourcecode\header\basiccraft.h
+	"moveobject.h"
+	"bullet.h"
+	<list>
+
+1561360504 e:\c项目实训\craftwar6\sourcecode\header\bullet.h
+	"moveobject.h"
+
+1561361654 source:e:\c项目实训\craftwar6\sourcecode\src\bullet.cpp
+	"bullet.h"
+	<sstream>
+
+1561361416 e:\c项目实训\craftwar6\sourcecode\header\mycraft.h
+	"basiccraft.h"
+
+1561360570 source:e:\c项目实训\craftwar6\sourcecode\src\mycraft.cpp
+	"mycraft.h"
+	"bullet.h"
+	<sstream>
+
+1561168780 source:e:\c项目实训\craftwar6\sourcecode\src\enemycraft.cpp
+	"enemycraft.h"
+
+1561168822 e:\c项目实训\craftwar6\sourcecode\header\enemycraft.h
+	"basiccraft.h"
+
+1561359838 source:e:\c项目实训\craftwar6\sourcecode\src\basicenemy.cpp
+	"basicenemy.h"
+	"bullet.h"
+	<sstream>
+
+1561357734 e:\c项目实训\craftwar6\sourcecode\header\basicenemy.h
+	"basiccraft.h"
+
+1561361536 source:e:\c项目实训\craftwar6\sourcecode\src\horizenemy.cpp
+	"horizenemy.h"
+	<sstream>
+
+1561357968 e:\c项目实训\craftwar6\sourcecode\header\horizenemy.h
+	"basicenemy.h"
+
+1561361292 source:e:\c项目实训\craftwar6\sourcecode\src\enemystool.cpp
+	"enemystool.h"
+	"horizenemy.h"
+	"rotateenemy.h"
+	"verticenemy.h"
+	"boosenemy.h"
+
+1561359492 e:\c项目实训\craftwar6\sourcecode\header\enemystool.h
+	"basicenemy.h"
+	<list>
+
+1420212242 source:d:\c项目实训\craftwar6\sourcecode\icon.rc
+
+1561177264 source:d:\c项目实训\craftwar6\sourcecode\src\basiccraft.cpp
+	"basiccraft.h"
+
+1561361618 d:\c项目实训\craftwar6\sourcecode\header\basiccraft.h
+	"moveobject.h"
+	"bullet.h"
+	<list>
+
+1561361628 d:\c项目实训\craftwar6\sourcecode\header\moveobject.h
+	"CommonClass.h"
+	<memory>
+
+1422461346 d:\c项目实训\craftwar6\sourcecode\header\commonclass.h
+	<windows.h>
+
+1561360503 d:\c项目实训\craftwar6\sourcecode\header\bullet.h
+	"moveobject.h"
+
+1561359837 source:d:\c项目实训\craftwar6\sourcecode\src\basicenemy.cpp
+	"basicenemy.h"
+	"bullet.h"
+	<sstream>
+
+1561357733 d:\c项目实训\craftwar6\sourcecode\header\basicenemy.h
+	"basiccraft.h"
+
+1561361652 source:d:\c项目实训\craftwar6\sourcecode\src\bullet.cpp
+	"bullet.h"
+	<sstream>
+
+1561361291 source:d:\c项目实训\craftwar6\sourcecode\src\enemystool.cpp
+	"enemystool.h"
+	"horizenemy.h"
+	"rotateenemy.h"
+	"verticenemy.h"
+	"boosenemy.h"
+
+1561359491 d:\c项目实训\craftwar6\sourcecode\header\enemystool.h
+	"basicenemy.h"
+	<list>
+
+1561357966 d:\c项目实训\craftwar6\sourcecode\header\horizenemy.h
+	"basicenemy.h"
+
+1561361535 source:d:\c项目实训\craftwar6\sourcecode\src\horizenemy.cpp
+	"horizenemy.h"
+	<sstream>
+
+1561361770 source:d:\c项目实训\craftwar6\sourcecode\src\lessonx.cpp
+	<Stdio.h>
+	"CommonClass.h"
+	"LessonX.h"
+	<fstream>
+
+1561190914 d:\c项目实训\craftwar6\sourcecode\header\lessonx.h
+	<Windows.h>
+	"mycraft.h"
+	"enemystool.h"
+	"bullet.h"
+
+1561361414 d:\c项目实训\craftwar6\sourcecode\header\mycraft.h
+	"basiccraft.h"
+
+1561129674 source:d:\c项目实训\craftwar6\sourcecode\src\main.cpp
+	"CommonClass.h"
+	"LessonX.h"
+
+1561359759 source:d:\c项目实训\craftwar6\sourcecode\src\moveobject.cpp
+	"moveobject.h"
+
+1561360568 source:d:\c项目实训\craftwar6\sourcecode\src\mycraft.cpp
+	"mycraft.h"
+	"bullet.h"
+	<sstream>
+
+1561361544 source:d:\c项目实训\craftwar6\sourcecode\src\rotateenemy.cpp
+	"rotateenemy.h"
+	<sstream>
+
+1561357975 d:\c项目实训\craftwar6\sourcecode\header\rotateenemy.h
+	"basicenemy.h"
+
+1561361551 source:d:\c项目实训\craftwar6\sourcecode\src\verticenemy.cpp
+	"verticenemy.h"
+	<sstream>
+
+1561358004 d:\c项目实训\craftwar6\sourcecode\header\verticenemy.h
+	"basicenemy.h"
+
+1561361556 source:d:\c项目实训\craftwar6\sourcecode\src\boosenemy.cpp
+	"boosenemy.h"
+	<sstream>
+
+1561361145 d:\c项目实训\craftwar6\sourcecode\header\boosenemy.h
+	"basicenemy.h"
+
+1420212242 source:d:\craftwar6\sourcecode\icon.rc
+
+1561177264 source:d:\craftwar6\sourcecode\src\basiccraft.cpp
+	"basiccraft.h"
+
+1561361620 d:\craftwar6\sourcecode\header\basiccraft.h
+	"moveobject.h"
+	"bullet.h"
+	<list>
+
+1561361630 d:\craftwar6\sourcecode\header\moveobject.h
+	"CommonClass.h"
+	<memory>
+
+1422461346 d:\craftwar6\sourcecode\header\commonclass.h
+	<windows.h>
+
+1561360504 d:\craftwar6\sourcecode\header\bullet.h
+	"moveobject.h"
+
+1561359838 source:d:\craftwar6\sourcecode\src\basicenemy.cpp
+	"basicenemy.h"
+	"bullet.h"
+	<sstream>
+
+1561357734 d:\craftwar6\sourcecode\header\basicenemy.h
+	"basiccraft.h"
+
+1561361558 source:d:\craftwar6\sourcecode\src\boosenemy.cpp
+	"boosenemy.h"
+	<sstream>
+
+1561361146 d:\craftwar6\sourcecode\header\boosenemy.h
+	"basicenemy.h"
+
+1561361654 source:d:\craftwar6\sourcecode\src\bullet.cpp
+	"bullet.h"
+	<sstream>
+
+1561361292 source:d:\craftwar6\sourcecode\src\enemystool.cpp
+	"enemystool.h"
+	"horizenemy.h"
+	"rotateenemy.h"
+	"verticenemy.h"
+	"boosenemy.h"
+
+1561359492 d:\craftwar6\sourcecode\header\enemystool.h
+	"basicenemy.h"
+	<list>
+
+1561357968 d:\craftwar6\sourcecode\header\horizenemy.h
+	"basicenemy.h"
+
+1561357976 d:\craftwar6\sourcecode\header\rotateenemy.h
+	"basicenemy.h"
+
+1561358006 d:\craftwar6\sourcecode\header\verticenemy.h
+	"basicenemy.h"
+
+1561361536 source:d:\craftwar6\sourcecode\src\horizenemy.cpp
+	"horizenemy.h"
+	<sstream>
+
+1561443959 source:d:\craftwar6\sourcecode\src\lessonx.cpp
+	<Stdio.h>
+	"CommonClass.h"
+	"LessonX.h"
+	<fstream>
+
+1561190914 d:\craftwar6\sourcecode\header\lessonx.h
+	<Windows.h>
+	"mycraft.h"
+	"enemystool.h"
+	"bullet.h"
+
+1561361416 d:\craftwar6\sourcecode\header\mycraft.h
+	"basiccraft.h"
+
+1561129674 source:d:\craftwar6\sourcecode\src\main.cpp
+	"CommonClass.h"
+	"LessonX.h"
+
+1561359760 source:d:\craftwar6\sourcecode\src\moveobject.cpp
+	"moveobject.h"
+
+1561360570 source:d:\craftwar6\sourcecode\src\mycraft.cpp
+	"mycraft.h"
+	"bullet.h"
+	<sstream>
+
+1561361546 source:d:\craftwar6\sourcecode\src\rotateenemy.cpp
+	"rotateenemy.h"
+	<sstream>
+
+1561361552 source:d:\craftwar6\sourcecode\src\verticenemy.cpp
+	"verticenemy.h"
+	<sstream>
+
+1561361558 source:e:\c项目实训\craftwar6\sourcecode\src\boosenemy.cpp
+	"boosenemy.h"
+	<sstream>
+
+1561361146 e:\c项目实训\craftwar6\sourcecode\header\boosenemy.h
+	"basicenemy.h"
+
+1561357976 e:\c项目实训\craftwar6\sourcecode\header\rotateenemy.h
+	"basicenemy.h"
+
+1561358006 e:\c项目实训\craftwar6\sourcecode\header\verticenemy.h
+	"basicenemy.h"
+
+1561361546 source:e:\c项目实训\craftwar6\sourcecode\src\rotateenemy.cpp
+	"rotateenemy.h"
+	<sstream>
+
+1561361552 source:e:\c项目实训\craftwar6\sourcecode\src\verticenemy.cpp
+	"verticenemy.h"
+	<sstream>
+

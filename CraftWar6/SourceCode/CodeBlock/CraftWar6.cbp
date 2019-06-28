@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CodeBlock" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../Bin/Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../CodeBlock/Debug" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../Header" />
+				</Compiler>
+				<Linker>
+					<Add library="../Src/CommonClass.a" />
+					<Add library="libwinmm.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../../Bin/Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../CodeBlock/Release" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../Header" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="../Src/CommonClass.a" />
+					<Add library="libwinmm.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../Header/CommonClass.h" />
+		<Unit filename="../Header/LessonX.h" />
+		<Unit filename="../Header/basiccraft.h" />
+		<Unit filename="../Header/basicenemy.h" />
+		<Unit filename="../Header/boosenemy.h" />
+		<Unit filename="../Header/bullet.h" />
+		<Unit filename="../Header/enemystool.h" />
+		<Unit filename="../Header/horizenemy.h" />
+		<Unit filename="../Header/moveobject.h" />
+		<Unit filename="../Header/mycraft.h" />
+		<Unit filename="../Header/rotateenemy.h" />
+		<Unit filename="../Header/verticenemy.h" />
+		<Unit filename="../Icon.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="../Src/LessonX.cpp" />
+		<Unit filename="../Src/Main.cpp" />
+		<Unit filename="../Src/basiccraft.cpp" />
+		<Unit filename="../Src/basicenemy.cpp" />
+		<Unit filename="../Src/boosenemy.cpp" />
+		<Unit filename="../Src/bullet.cpp" />
+		<Unit filename="../Src/enemystool.cpp" />
+		<Unit filename="../Src/horizenemy.cpp" />
+		<Unit filename="../Src/moveobject.cpp" />
+		<Unit filename="../Src/mycraft.cpp" />
+		<Unit filename="../Src/rotateenemy.cpp" />
+		<Unit filename="../Src/verticenemy.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
